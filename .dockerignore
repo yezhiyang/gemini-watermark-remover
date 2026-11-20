@@ -1,0 +1,32 @@
+# Docker
+.dockerignore
+
+# Dependencies
+node_modules/
+
+# Build output (created inside the builder)
+dist/
+
+# Git metadata
+.git/
+.gitignore
+
+# Documentation and examples
+README.md
+README_zh.md
+docs/
+LICENSE
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
